@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #0a0d14;
+    --primary-color-light: #20242f;
+    --secondary-color: #f49e09;
+    --extra-light: rgba(255, 255, 255, 0.5);
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Lisu Bosa", serif;
+  }
+
+    body {
+        background: url("./bg.jpg");
+        background: contain;
+        background-repeat: no-repeat
+    }
+
+    .container {
+        backdrop-filter: blur(30px);
+        position: absolute;
+        top: 50%;
+        color: aliceblue;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        box-shadow: 10px 10px 50px rgb(10, 10, 10);
+        border-radius: 20px
+    }
+
+    .img {
+        background: url("../image/m1.jpg");
+        width: 200px;
+        height: 200px;
+        float: left;
+        border-radius: 50%;
+        background-size: 200px 200px;
+        shape-outside: circle();
+        margin: 0px 10px 10px 0px
+    }
+
+    .details {
+        margin: -20px 0px 0px 10px;
+        line-height: 20px
+    }
+    .btn {
+        padding: 2px 4px;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+        cursor: pointer;
+        text-decoration: none;
+        
+      }
+  
